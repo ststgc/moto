@@ -1,0 +1,52 @@
+//
+// Base
+// ------------
+
+html,
+\:root
+    font-family: $font-sans
+    font-size: $base-font-size
+    line-height: $baseline-unitless
+    font-weight: 400
+    text-size-adjust: none
+    text-rendering: optimizeLegibility
+    -webkit-font-smoothing: antialiased
+    -webkit-tap-highlight-color: $brand-primary
+    font-feature-settings: "liga" 1, "onum" 1, "kern" 1
+    font-kerning: normal
+    background-color: $window-background
+    color: $body-text-color
+    overflow-x: hidden
+    +breakpoint(palm)
+        font-size: 100%
+
+::selection
+    background-color: $brand-primary
+    color: #fff
+    text-shadow: none
+
+
+// Set width
+// ------------
+// $body-width-px: 1680
+// $body-width-rem: $body-width-px/$basefont-unitless*1rem
+$content-width-px: 1000
+$content-width-rem: $content-width-px/$basefont-unitless*1rem
+
+
+
+body
+    overflow-x: hidden
+    background-color: $body-background
+
+.wrap
+    max-width: $content-width-rem
+    margin-left: auto
+    margin-right: auto
+    position: relative
+    +breakpoint(lap)
+        margin-right: $baseline
+        margin-left: $baseline
+    +breakpoint(palm)
+        margin-right: $baseline/2
+        margin-left: $baseline/2

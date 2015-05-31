@@ -1,0 +1,36 @@
+//
+// Footer
+// ---------
+
+.footer
+    height: 100vh
+    display: flex
+    align-items: center
+    justify-content: center
+    padding-top: $baseline*10
+    padding-bottom: $baseline*10
+
+    p
+        font-size: $font-size-large
+        margin-bottom: $baseline
+
+    span
+        font-size: $font-size-large
+        &:before
+            position: relative
+            content: '—'
+            top: -2px
+            margin-right: $baseline/4
+
+
+.footer__copy
+    border-top: 1px solid
+    padding-top: $baseline
+    padding-bottom: $baseline
+    p
+        padding: 0
+        margin: 0
+        line-height: 1
+    a
+        margin-left: $baseline/4
+

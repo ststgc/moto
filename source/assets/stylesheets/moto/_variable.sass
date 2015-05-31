@@ -1,0 +1,81 @@
+
+// Variable
+// ----------------------------------------
+
+
+$basefont-unitless:      18
+$base-font-size:         ($basefont-unitless/16)*100%
+$baseline-unitless:      30.00006 / $basefont-unitless
+$baseline:               $baseline-unitless * 1rem
+
+
+$font-name-one: "Open Sans"
+$font-name-two: "freight-text-pro"
+
+
+$image-ratio: 60% // our baseline ratio is 3:5 = 1.6667
+
+
+$font-sans:    $font-name-one, YuGothic, sans-serif
+$font-serif:   $font-name-two, YuMincho, serif
+$font-body:    $font-sans
+$font-code:    "Source Code Pro", Menlo, monospace
+$font-logo:    "Avenir Next", YuGothic, sans-serif
+// $font-logo:    "Avenir Next", YuGothic, sans-serif
+$font-h1:      $font-logo
+$font-h2:      $font-logo
+$font-caption: $font-logo
+$font-section-header: $font-logo
+
+
+
+
+
+// Colors
+// ----------------------------------------
+
+// Color: Glayscale
+// Change the color
+// http://blog.typekit.com/2011/01/26/css-properties-that-affect-type-rendering/
+
+$white:            #fff
+$white-grayscale:  #F3F4F5
+$black-10:         darken($white-grayscale, 10%)
+$black-20:         darken($white-grayscale, 20%)
+$black-30:         darken($white-grayscale, 30%)
+$black-40:         darken($white-grayscale, 40%)
+$black-50:         darken($white-grayscale, 50%)
+$black-60:         darken($white-grayscale, 60%)
+$black-70:         darken($white-grayscale, 70%)
+$black-80:         darken($white-grayscale, 80%)
+$black-90:         darken($white-grayscale, 90%)
+$black-100:        darken($white-grayscale, 100%)
+
+// Color: Semantic
+$brand-primary: #C80000
+// $brand-success: #5cb85c
+$brand-warning: #F79E62
+// $brand-danger:  #d9534f
+// $brand-info:    #5bc0de
+
+
+// Color: Scaffolding
+// Apply above colors for specific cases.
+$window-background:        $brand-primary
+$body-background:          $brand-primary
+$body-text-color:          $white
+$body-link:                transparentize($brand-primary, .4)
+$body-link-hover:          $brand-primary
+$body-link-visited:        $black-20
+$body-strong:              transparentize($brand-primary, .75)
+$body-inline-code:         transparentize($brand-primary, .96)
+$body-blockquote:          transparentize($body-text-color, .5)
+$image-background:         $black-10
+$meta:                     $black-20
+$skin:                     #FFFAF7
+
+// Highlight selection color
+// -----------------------------------
+$selection-transparentize: .8
+$seelction-text-color:     $body-text-color
+

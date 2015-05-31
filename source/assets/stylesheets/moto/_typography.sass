@@ -1,0 +1,33 @@
+
+// Font sizes
+// ----------------------------------------
+
+$font-size-tiny:    $baseline/2.5
+$font-size-small:   $baseline/2
+$font-size-regular: 1rem
+$font-size-large:   $baseline
+$font-size-extra-large: $baseline*2
+
+a
+    color: $body-text-color
+    text-decoration: underline
+    &:hover
+        color: transparentize($white, .7)
+
+img
+    max-width: 100%
+
+    figure &
+        position: relative
+        display: block
+        width: 100%
+        margin-bottom: $baseline/2
+
+p
+    margin-top: 0
+    margin-bottom: $baseline
+
+h1, h2, h3, h4, h5
+    font-size: $font-size-regular
+    margin-top: 0
+    margin-bottom: 0
