@@ -12,7 +12,7 @@ image: http://moto.com/.png
 url: &url
     'http://moto.com'
 title: &title
-    '| Foundation of the basic structure.'
+    ' Foundation of the basic structure.'
 description: &description
     'Moto is the foundation of the basic structure.'
 
