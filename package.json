@@ -13,8 +13,6 @@
   "author": "Shota Setoguchi",
   "license": "ISC",
   "devDependencies": {
-    "browser-sync": "^2.3.1",
-    "del": "^1.1.1",
     "gulp": "^3.8.11",
     "gulp-awspublish": "^2.0.2",
     "gulp-cached": "^1.0.4",
@@ -24,14 +22,10 @@
     "gulp-imagemin": "^2.2.1",
     "gulp-jshint": "^1.9.4",
     "gulp-minify-html": "^1.0.1",
-    "gulp-notify": "^2.2.0",
     "gulp-pleeease": "^1.2.0",
-    "gulp-shell": "^0.4.1",
     "gulp-uglify": "^1.1.0",
-    "gulp-util": "^3.0.4",
     "imagemin-pngquant": "^4.0.0",
     "require-dir": "^0.1.0",
-    "run-sequence": "^1.0.2",
-    "vinyl-ftp": "^0.4.0"
+    "run-sequence": "^1.0.2"
   }
 }

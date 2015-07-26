@@ -4,8 +4,6 @@ source 'https://rubygems.org'
 
 # Middleman
 gem "middleman"
-gem "middleman-livereload"
-
 
 # Use middleman-blog
 # gem "middleman-blog"

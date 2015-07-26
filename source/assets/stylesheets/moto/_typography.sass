@@ -2,7 +2,7 @@
 // Font sizes
 // ----------------------------------------
 
-$font-size-tiny:    $baseline/2.5
+$font-size-extra-small:    $baseline/2.5
 $font-size-small:   $baseline/2
 $font-size-regular: 1rem
 $font-size-large:   $baseline
@@ -10,7 +10,7 @@ $font-size-extra-large: $baseline*2
 
 a
     color: $body-text-color
-    text-decoration: underline
+    text-decoration: none
     &:hover
         color: transparentize($white, .7)
 
@@ -31,3 +31,7 @@ h1, h2, h3, h4, h5
     font-size: $font-size-regular
     margin-top: 0
     margin-bottom: 0
+
+ul, ol
+    padding-left: 0
+    list-style: none
