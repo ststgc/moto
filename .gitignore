@@ -32,3 +32,6 @@ npm-debug.log
 .publish
 
 .awspublish-moto.shotasetoguchi.jp
+
+# ignore design directory
+design
