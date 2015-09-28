@@ -3,22 +3,36 @@
 
 / 4 required properties for the open graph protocol
 / Those content may need to be changed in some spesific context.
-meta property="og:title" content="#{data.meta.title}"
-meta property="og:type" content="#{data.meta.type}"
-meta property="og:image" content="#{data.meta.image}"
-meta property="og:url" content="#{data.meta.url}"
+- if current_page.data.title
+    meta property="og:title" content="#{current_page.data.title} | #{data.meta.title}"
+- else
+    meta property="og:title" content="#{data.meta.title}"
+
+- if current_page.data.hero
+    meta itemprop="og:image" content="#{data.meta.url}#{current_page.data.hero}"
+- else
+    meta itemprop="og:image" content="#{data.meta.image}"
+
+meta property="og:url" content="#{data.meta.url}#{current_page.url}"
 
 / Optional but recommended. There’s more on the official site.
 meta property="og:locale" content="#{data.meta.og.locale}"
 meta property="og:site_name" content="#{data.meta.og.site_name}"
-meta property="og:description" content="#{data.meta.og.description}"
+
+- if current_page.data.description
+    meta property="og:description" content="#{current_page.data.description}"
+- else
+    meta property="og:description" content="#{data.meta.og.description}"
+
 
 / Facebook
-meta property="fb:app_id" content="#{data.meta.fb.app_id}"
+/ meta property="fb:app_id" content="#{data.meta.fb.app_id}"
 
 / Twitter
 meta name="twitter:card" content="#{data.meta.twitter.type}"
-meta name="twitter:domain" content="#{data.meta.twitter.domain}"
+meta name="twitter:site" content="#{data.meta.twitter.site}"
+meta name="twitter:creator" content="#{data.meta.twitter.creator}"
+
 
 / Google
-link rel="author" href="https://plus.google.com/#{data.meta.google.id}"
+/ link rel="author" href="https://plus.google.com/#{data.meta.google.id}"

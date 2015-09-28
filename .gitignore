@@ -18,20 +18,19 @@
 .DS_Store
 
 # Ignore vendor/bundle
-vendor/bundle
+/vendor/bundle
 
 # Ignore node_modules
-node_modules
+/node_modules
 npm-debug.log
 
 
 # ignore ftppath
-.ftppass
+/.ftppass
 
 # ignore ftppath
-.publish
-
+/.publish
 .awspublish-moto.shotasetoguchi.jp
 
 # ignore design directory
-design
+/design

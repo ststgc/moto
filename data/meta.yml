@@ -26,23 +26,22 @@ og:
     # Required
     title: *title
     type:
-    image: ['URL.com']
+    image: http://bentodanshi.co/logo.png
     url: *url
 
     # Optional but recommended
-    locale: 'en_EN'
+    locale: 'ja_JP'
     site_name: *title
     description: *description
 
 
 # Twitter in spesific
 twitter:
-    lang: 'en'
-    hashtags: 'hone'
-    site: *title
-    text: *title
+    lang: 'ja'
+    site: &site
+      "bentodanshi_"
+    creator: *site
     type: 'summary_large_image'
-    domain: *url
 
 # Google id
 google:

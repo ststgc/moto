@@ -3,25 +3,25 @@ html lang="#{data.meta.lang}" itemscope="" itemtype="http://schema.org/#{data.me
     head
 
         / Charset
-        = partial "meta/charset"
+        == partial "meta/charset"
 
         / SEO
-        = partial "meta/seo"
+        == partial "meta/seo"
 
         / Browser Stuff
-        = partial "meta/browser"
+        == partial "meta/browser"
 
         / OGP Stuff
-        = partial "meta/ogp"
+        == partial "meta/ogp"
 
         / Typekit
-        / = partial "script/typekit"
+        / == partial "script/typekit"
 
         / Google Web Font
-        = partial "script/google-webfont"
+        == partial "script/google-webfont"
 
         / Favicon
-        = partial "meta/favicon"
+        == partial "meta/favicon"
 
         / Load stylesheets
         == stylesheet_link_tag "style"
@@ -29,9 +29,9 @@ html lang="#{data.meta.lang}" itemscope="" itemtype="http://schema.org/#{data.me
 
     body class= "#{page_classes}"
 
-        = partial "block/header"
+        == partial "block/header"
         == yield
-        = partial "block/footer"
+        == partial "block/footer"
 
 
         / Javascript

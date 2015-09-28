@@ -10,6 +10,22 @@ title itemprop="name"
     - else
         | #{data.meta.title}
 
+
+/ Description
+- if current_page.data.description
+    meta name="description" content="#{current_page.data.description}"
+- else
+    meta name="description" content="#{data.meta.description}"
+
+
+/ Image
+- if current_page.data.hero
+    meta itemprop="image" content="#{data.meta.url}#{current_page.data.hero}"
+- else
+    meta itemprop="image" content="#{data.meta.image}"
+
+
+
 / URL
 link itemprop="url" href="#{data.meta.url}"
 
@@ -18,3 +34,4 @@ link rel="canonical" href="#{data.meta.url}"
 
 / Keywords
 / meta name="keywords" content="#{data.meta.keywords}"
+
