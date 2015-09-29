@@ -11,7 +11,7 @@ var config = require('../config');
 // Tasks
 gulp.task('production', function(){
     var pathRootGlob = config.path.dist.root + '/**/*';
-    var pathCredential = '../../credentials/moto.shotasetoguchi.jp.json';
+    var pathCredential = '../../../credentials/www.poin.co.json';
     var key = JSON.parse(fs.readFileSync(pathCredential));
     var publisher = awspublish.create(key);
     var headers = {

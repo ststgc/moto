@@ -1,5 +1,5 @@
 {
-  "name": "Moto",
+  "name": "lp-poinAfterClosed",
   "version": "1.0.0",
   "description": "Packages for lp-poinAfterClosed.",
   "main": "index.js",
@@ -7,7 +7,6 @@
     "server": "bundle exec middleman server",
     "build": "bundle exec middleman build && gulp build",
     "check": "npm run build && gulp check",
-    "staging": "npm run build && gulp staging",
     "production": "npm run build && gulp production"
   },
   "author": "Shota Setoguchi",
