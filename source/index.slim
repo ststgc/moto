@@ -1,15 +1,25 @@
 ---
-title: Moto
+title:
 ---
 
-- points = data.content.points
+- h = data.content.home
 
 .home
   .wrap role="main"
-    .grid.grid--accentOnTop
-      - points.each do |point|
-        .grid__col--1-3
-          h3
-            = point[:title]
-          p
-            = point[:detail]
+    header.header
+      .header__block.header--absoluteCenter
+        = image_tag 'poin_logo_dark.svg'
+        p
+          | Life’s Full Of Interesting.
+    .grid
+      .grid__col--half
+        h3
+          = h.ja.title
+        p
+          = h.ja.detail
+      .grid__col--half
+        h3
+          = h.en.title
+        = h.en.detail
+
+.bottomShade

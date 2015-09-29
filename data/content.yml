@@ -1,25 +1,12 @@
 # inline text of content.
 
 home:
-  subtitle: "is a small foundation allows you to kickstart a new project."
-  detail: "It contains only a few but well thought folders that I feel comfortable developing the web. All projects I create starts from right here. If you’re interested in the motivation behind this project, go to the repo and see what I think."
-  download:
-    title: "Fork on Github"
-    url: "https://github.com/ststgc/moto"
-
-points:
-  - title: BEM inspired structure
-    detail: "All comes from Block, Element, Modifire structures. The mind behind BEM is very similer to the process that how <a href=\"http://www.adobe.com/products/type/font-designers/masahiko-kozuka.html\">Masahiko Kozuka</a> —a Japanese typographer who’s famous for Kozuka type family— makes his new typefaces."
-  - title: All about Type
-    detail: Moto cares typography deeply. Every decisions you make is all decleared by your base font size and rhythm. Use your time to something effective than pondering the value of margin-right.
-  - title: "Simplify your code"
-    detail: "You should be able to understand your design and development process after a year or so. Moto cares product life, it should manageable, noticeable, and shareable. Separate your content and structure. Use your time for naming conventions."
+  ja:
+    title: Poinのご愛用、ありがとうございました。
+    detail: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto quas excepturi reprehenderit, maiores. Nihil, molestias ipsa, fugit sequi dolor fuga ad aliquam, optio quis repudiandae voluptas a nam placeat. Corrupti. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda commodi doloremque debitis distinctio reprehenderit consectetur! Cupiditate alias, aspernatur sapiente. Ea dolore quia impedit quis veniam sequi velit esse, cumque et."
+  en:
+    title: Thank you for using Poin.
+    detail: "<p>Oyster launched two years ago with a simple idea to build a better way to read on mobile. We’ve made incredible progress towards that goal—the vast majority of reading on Oyster happens on a mobile phone and we’ve dramatically improved mobile reading with product features like Lumin and leading editorial content on the Oyster Review. Through it all, our mission has remained the same: connect readers with books they’ll love.</p><p>As we continue on, we couldn’t be more excited about the future of ebooks and mobile reading. We believe more than ever that the phone will be the primary reading device globally over the next decade—enabling access to knowledge and stories for billions of people worldwide.</p> <p>Looking forward, we feel this is best seized by taking on new opportunities to fully realize our vision for ebooks. With that, we will be taking steps to sunset the existing Oyster service over the next several months. If you are an Oyster reader you will receive an email personally regarding your account in the next few weeks. We look forward to sharing more details soon, but rest assured, your account will continue to operate normally in the meantime. If you’d like to request a refund, please contact us at refunds@oysterbooks.com.</p><p>We’re excited for what’s next, but for now we hope you continue to live the life well read with all of us at Oyster.</p><p> Onwards, Eric, Andrew, Willem, and Team Oyster</p>"
 
 footer:
-  quote: Standardization related to the size of construction materials can bring significant savings in any three dimensional project. Odd sizes imply more labor costs and waste of materials.
-  author: Massimo Vignelli
-  copyright:
-    subtitle: Another tool from
-    title: Shota Setoguchi
-    url: http://shotasetoguchi.jp
-
+  copy: "© 2015 M&C"

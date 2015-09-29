@@ -6,15 +6,15 @@ prefix: "og: http://ogp.me/ns# fb: http://www.facebook.com/2008/fbml"
 itemtype: "WebPage"
 viewport: "width=device-width, initial-scale=1"
 userAgentCompatible: "IE=edge"
-image: http://moto.com/.png
+image: //www.poin.co/assets/brand/icon_og_v1404313650.png
 
 # Basic info
 url: &url
-  'http://moto.com'
+  'http://poin.co'
 title: &title
-  ' Foundation of the basic structure.'
+  'Poin'
 description: &description
-  'Moto is the foundation of the basic structure.'
+  ''
 
 # else
 locale: &locale
@@ -26,7 +26,7 @@ og:
   # Required
   title: *title
   type:
-  image: http://bentodanshi.co/logo.png
+  image: //www.poin.co/assets/brand/icon_og_v1404313650.png
   url: *url
 
   # Optional but recommended
@@ -39,7 +39,7 @@ og:
 twitter:
   lang: 'ja'
   site: &site
-    "bentodanshi_"
+    "Poin"
   creator: *site
   type: 'summary_large_image'
 

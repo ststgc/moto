@@ -1,38 +1,29 @@
 
 .header
-  padding-top: $baseline*5
-  padding-bottom: $baseline*5
-  h1
-    position: relative
-    margin-left: -$baseline/1.25
-    margin-bottom: 0
-    padding-bottom: 0
-    line-height: 1
-    font-size: $baseline*10
-    font-weight: 700
-    letter-spacing: -25px
-    +breakpoint(palm)
-      font-size: $baseline*2
-      letter-spacing: -4px
-      margin-left: -$baseline/6
-      margin-bottom: $baseline/2
-  h2
-    position: relative
-    font-size: $font-size-large
-    letter-spacing: -2px
+  position: relative
+  height: 1000px
+  height: 90vh
 
+.header__block
+  text-align: center
+  img
+    width: 200px
+    margin-bottom: $baseline/3
     +breakpoint(palm)
-      line-height: 1
-      font-weight: 100
-      margin-bottom: $baseline/2
-      letter-spacing: -1px
-
+      width: 120px
   p
-    margin-bottom: $baseline/2
+    font-size: $font-size-small
+    color: $black-80
 
-
-  span
-    display: block
-    margin-bottom: $baseline
-    font-size: $font-size-extra-small
+.header--absoluteCenter
+  position: absolute
+  width: 50%
+  height: 116px
+  margin: auto
+  top: 0
+  right: 0
+  bottom: 0
+  left: 0
+  overflow: auto
+  display: inline-block
 

@@ -3,10 +3,20 @@
 // ----------
 
 .home
-  p
-    a
-      margin-left: $baseline/4
-
-  .grid__col--1-3
+  padding-bottom: $baseline*10
+  .grid__col--half
+    h3
+      margin-bottom: $baseline/2
+    p
+      margin-bottom: $baseline/2
     +breakpoint(palm)
       margin-bottom: $baseline*5
+
+
+.bottomShade
+  position: fixed
+  bottom: 0
+  left: 0
+  right: 0
+  height: 100px
+  background-image: linear-gradient(360deg, #fff,rgba(255,255,255,0)100%)
