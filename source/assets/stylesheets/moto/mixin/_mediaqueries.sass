@@ -12,16 +12,16 @@ $palm: 700px
 
 =breakpoint($point)
 
-    // default breakpoints
-    @if $point == desk
-        @media (max-width: $desk)
-            @content
+  // default breakpoints
+  @if $point == desk
+    @media (max-width: $desk)
+      @content
 
-    @if $point == lap
-        @media (max-width: $lap)
-            @content
+  @if $point == lap
+    @media (max-width: $lap)
+      @content
 
-    @else if $point == palm
-        @media (max-width: $palm)
-            @content
+  @else if $point == palm
+    @media (max-width: $palm)
+      @content
 

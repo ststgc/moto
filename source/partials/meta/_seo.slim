@@ -5,24 +5,24 @@ meta itemprop="image" content="#{data.meta.image}"
 
 / Title
 title itemprop="name"
-    - if current_page.data.title
-        | #{current_page.data.title} | #{data.meta.title}
-    - else
-        | #{data.meta.title}
+  - if current_page.data.title
+    | #{current_page.data.title} | #{data.meta.title}
+  - else
+    | #{data.meta.title}
 
 
 / Description
 - if current_page.data.description
-    meta name="description" content="#{current_page.data.description}"
+  meta name="description" content="#{current_page.data.description}"
 - else
-    meta name="description" content="#{data.meta.description}"
+  meta name="description" content="#{data.meta.description}"
 
 
 / Image
 - if current_page.data.hero
-    meta itemprop="image" content="#{data.meta.url}#{current_page.data.hero}"
+  meta itemprop="image" content="#{data.meta.url}#{current_page.data.hero}"
 - else
-    meta itemprop="image" content="#{data.meta.image}"
+  meta itemprop="image" content="#{data.meta.image}"
 
 
 

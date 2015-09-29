@@ -10,46 +10,46 @@ image: http://moto.com/.png
 
 # Basic info
 url: &url
-    'http://moto.com'
+  'http://moto.com'
 title: &title
-    ' Foundation of the basic structure.'
+  ' Foundation of the basic structure.'
 description: &description
-    'Moto is the foundation of the basic structure.'
+  'Moto is the foundation of the basic structure.'
 
 # else
 locale: &locale
-    ja: 'ja'
+  ja: 'ja'
 
 
 # In general open graph protocol
 og:
-    # Required
-    title: *title
-    type:
-    image: http://bentodanshi.co/logo.png
-    url: *url
+  # Required
+  title: *title
+  type:
+  image: http://bentodanshi.co/logo.png
+  url: *url
 
-    # Optional but recommended
-    locale: 'ja_JP'
-    site_name: *title
-    description: *description
+  # Optional but recommended
+  locale: 'ja_JP'
+  site_name: *title
+  description: *description
 
 
 # Twitter in spesific
 twitter:
-    lang: 'ja'
-    site: &site
-      "bentodanshi_"
-    creator: *site
-    type: 'summary_large_image'
+  lang: 'ja'
+  site: &site
+    "bentodanshi_"
+  creator: *site
+  type: 'summary_large_image'
 
 # Google id
 google:
-    id: (Google+ ID)
+  id: (Google+ ID)
 
 
 # Facebook id
 fb:
-    app_id: '(Facebook ID)'
+  app_id: '(Facebook ID)'
 
 
