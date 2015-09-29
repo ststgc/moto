@@ -52,7 +52,7 @@ set :relative_links, true
 configure :build do
 
     # Use relative URLs
-    # activate :relative_assets
+    activate :relative_assets
 
 end
 
