@@ -1,7 +1,7 @@
 {
   "name": "Moto",
   "version": "1.0.0",
-  "description": "Packages for Moto.",
+  "description": "Packages for lp-poinAfterClosed.",
   "main": "index.js",
   "scripts": {
     "server": "bundle exec middleman server",
